@@ -1,0 +1,123 @@
+.about{
+    box-shadow: 0px 2px 3px rgba(51, 30, 30, 0.13) ,1px 2px 2px rgba(44, 14, 14, 0.1) , -1px -2px 2px rgba(0,0,0,.05) ;
+    box-shadow: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.about-us h1{
+    text-align: center;
+    align-items: center;
+
+}
+
+.about_image{
+    width: 30%;
+    height: 30%;
+    
+        
+}
+
+.about-imagecont{
+    
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.about-description{
+    text-align: justify;
+    letter-spacing: 0.5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.about-description p{
+    
+    font-family: 'Libre Baskerville', serif;
+    font-size: 24px;
+    font-style: italic;
+
+}
+
+.about-description span{
+    font-weight: 700;
+    font-size: 25px;
+    
+    
+}
+
+.about-contact{
+    text-align: justify;
+    margin-left: 90px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.about-contact h3{
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+.about-contact p{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.Email{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    
+}
+
+.Phone{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+}
+
+.about-follow{
+    text-align: justify;
+    margin-left: 90px;
+}
+
+.about-handles{
+    display: flex;
+    
+    
+}
+
+.about-handles li{
+    list-style: none;
+    
+}
+
+.about-handles a{
+    text-decoration: none;
+    align-items: center;
+    
+}
+
+.phone-icon{
+  
+    padding-right: 30px;
+}
+
+.email-address{
+    padding-right: 30px;
+}
+
+
+@media screen and (max-width: 812px){
+    .about{
+        width: 700px;
+    }
+}
+

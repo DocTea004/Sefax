@@ -1,0 +1,21 @@
+.defaultHero,
+.bannerHero{
+    min-height: calc(100vh - 66px);
+    background: url('../../Image/banner.jpg') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+@media only screen and ( max-width: 812px){
+
+    .defaultHero,
+    .bannerHero{
+        border: 2px red solid;
+        width: 100%;
+        object-fit: contain;
+        width: 700px;
+    }
+}

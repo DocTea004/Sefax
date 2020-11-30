@@ -1,0 +1,65 @@
+.posted-images{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.slider{
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.sefax{
+    margin-top: 50px;
+}
+
+.renderpost_content{
+    padding-left: 30px;
+    
+    padding-bottom: 20px;
+}
+
+.Post_image>p{
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 30px;
+    margin-right: 50px;
+}
+
+.work-gallery{
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.work-gallery h3{
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Lobster Two', cursive;
+
+}
+
+.sefax-renderpost{
+    margin-left: 70px;
+}
+
+@media screen and ( max-width: 812px ){
+    .sefax{
+        width: 700px;
+    }
+
+    .slider{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .renderpost_content{
+        width: 700px;
+    }
+
+    .posted-images{
+        width: 500px;
+    }
+}

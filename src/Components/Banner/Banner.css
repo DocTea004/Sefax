@@ -1,0 +1,60 @@
+.banner{
+    display: inline-block;
+    background-color: rgba(0, 0, 0,0.5);
+    color: var(--mainWhite);
+    padding: 2rem 1rem;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: var(--mainSpacing);
+}
+
+.banner h2{
+    font-size: 34px;
+}
+
+.banner_space{
+    width: 10rem;
+    height: 5px;
+    background: var(--mainWhite);
+    margin: 1.7rem auto;
+}
+
+.banner p{
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+}
+
+.btn-primary{
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: var(--mainSpacing);
+    color: orange;
+    background: white;
+    border: 3px solid var(--mainWhite);
+    transition: var(--mainTransition);
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 15px;
+    margin-left: 20px;
+}
+
+.banner-btn{
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: var(--mainSpacing);
+    color: orange;
+    background: white;
+    border: 3px solid var(--mainWhite);
+    transition: var(--mainTransition);
+    cursor: pointer;
+    padding: 10px;
+    margin-left: 20px;
+    border-radius: 15px;
+    
+
+}
+
+.btn-primary :hover{
+    background: transparent;
+    color: var(--primaryColor);
+}

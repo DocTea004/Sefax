@@ -1,0 +1,116 @@
+.contact h2{
+    text-align: center;
+    text-decoration: underline  rgb(253, 101, 46);
+}
+
+.contact{
+  
+    padding-top: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    
+}
+
+.contact-sub{
+    background-color: rgb(245, 245, 245);
+}
+
+
+.contact-flex{
+    display: flex;
+    margin-left: 30px;
+    justify-content: space-evenly;
+}
+
+
+.contact-left{
+   
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+
+
+.contact-left p{
+    margin-top: 90px;
+    padding-bottom: 10px;
+    font-weight: 400;
+    
+    
+}
+
+
+.contact-left h3{
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.contact-middle{
+    background-color: rgb(255, 123, 0);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 100px;
+}
+
+.contact-middle p{
+    margin-top: 90px;
+    padding-bottom: 10px;
+}
+
+.contact-middle h3{
+    font-weight: 300;
+    font-size: 20px;
+}
+
+
+
+.contact-right{
+    
+    padding-top: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.contact-right p{
+    margin-top: 90px;
+    padding-bottom: 10px;
+}
+
+.contact-right h3{
+    font-weight: 300;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 812px){
+    .contact{
+        width: 700px;
+        margin-top: 30px;        
+    }
+
+    .contact-left{
+        margin-right: 20px;
+        margin-left: -20px;
+
+    }
+
+    .contact-left h3{
+        width: 200px;
+    }
+
+    .contact-middle{
+        width: 250px;
+    }
+
+    .contact-right{
+        margin-left: -100px;
+        width: 250px;
+        padding-right: 30px;
+        
+    }
+}
