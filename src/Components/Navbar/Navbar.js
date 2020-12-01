@@ -40,7 +40,7 @@ export default class Navbar extends Component {
                         </li>
                         <li>
                             <Link to="/Cameras">
-                                Work Reviews
+                                Our Products
                             </Link>
                         </li>
                     </ul>
