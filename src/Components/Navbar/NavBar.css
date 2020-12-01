@@ -74,6 +74,7 @@
 
   @media screen and  (max-width : 812px){
     .navbar{
+     
       width: 700px;
     }
   }
