@@ -27,7 +27,7 @@ function Footer() {
 
                     <li>
                         <Link to="/Cameras">
-                            <p> > Work Review</p>
+                            <p> > Our Products</p>
                         </Link>
                     </li>
 
